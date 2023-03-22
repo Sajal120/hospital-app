@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TravelRecordApp.NewTravelPage">
+    
+        <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save"
+                     Clicked="Save_Clicked"/>
+    </ContentPage.ToolbarItems>
+   
+        <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="15">
+           
+            <Entry x:Name="tempEntry"
+                   Placeholder="Temperature"/>
+                <Label TextColor="blue" FontSize="Large"  Text="Temperature(37 / 36.5..)"/>
+            <Entry  x:Name="BleedEntry"
+                   Placeholder="Bleed"/>
+                <Label TextColor="blue" FontSize="Large"  Text="Bleed(Heavy / Medium / Light)"/>
+                <Entry x:Name="BleedSpottingEntry"
+                   Placeholder="BleedSpotting"/>
+                <Label TextColor="blue" FontSize="Large"  Text="Bleed Spotting(Red / Brown)"/>
+                <Entry x:Name="MucusSensationEntry"
+                   Placeholder="MucusSensation"/>
+                <Label TextColor="blue" FontSize="Large"  Text="Mucus Sensation(Dry / Damp / Wet / Slippery)"/>
+                <Entry x:Name="MucusConsistencyEntry"
+                   Placeholder="MucusConsistency"/>
+                <Label TextColor="blue" FontSize="Large"  Text="Mucus Consistency(Flaky,Crumbly / Tacky,Sticky,Thick / Runny / Watery / Stretchy,Eggwhite)"/>
+                <Entry x:Name="MucusColourEntry" 
+                   Placeholder="MucusColour"/>
+                <Label TextColor="blue" FontSize="Large"  Text="Mucus Colour(White / Yellow / Cloudy / Clear / Greenish)"/>
+            <Entry x:Name="MucusAmountEntry"
+                   Placeholder="MucusAmount"/>
+                <Label TextColor="blue" FontSize="Large"  Text="Mucus Amount(Small / Medium / Large)"/>
+                <Entry x:Name="IntercourseEntry"
+                   Placeholder="Intercourse"/>
+                <Label TextColor="blue" FontSize="Large"  Text="Intercourse(Yes / No)"/>
+            <Entry x:Name="SymptomsEntry"
+                   Placeholder="Symptoms"/>
+                <Label TextColor="blue" FontSize="Large"  Text="Symptoms(Increased libido / Pain / Breast tenderness / Backache / Moodiness / Fullness at vulva ...)"/>
+            <Entry x:Name="MedicationsEntry"
+                   Placeholder ="Medications"/>
+                <Label TextColor="blue" FontSize="Large"  Text="Medications or Supplements"/>
+                <Entry x:Name="experienceEntry"
+                   Placeholder="Day"/>
+                <Label TextColor="blue" FontSize="Large"  Text="Day(Day 1 / Day 2..)"/>
+            </StackLayout>
+        </ScrollView>
+      
+    </ContentPage.Content>
+       
+</ContentPage>
+

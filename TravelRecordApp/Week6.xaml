@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelRecordApp.Week6" xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms">
+    <ScrollView>
+        <StackLayout>
+            <forms:ChartView x:Name="ChartV6" HeightRequest="300">
+
+            </forms:ChartView>
+            <Entry Text="" Placeholder="E-mail Address" x:Name="EntryEmail12345"/>
+            <Entry Text="" Placeholder="Subject" x:Name="EntrySubject12345"/>
+            <Button Text="Submit"  BackgroundColor="#3F84E5"
+                TextColor="White" Clicked="Button_Clicked"/>
+            <Entry Placeholder="Day1" x:Name="I1"/>
+            <Entry Placeholder="Day2" x:Name="I2"/>
+            <Entry Placeholder="Day3" x:Name="I3"/>
+            <Entry Placeholder="Day4" x:Name="I4"/>
+            <Entry Placeholder="Day5" x:Name="I5"/>
+            <Entry Placeholder="Day6" x:Name="I6"/>
+            <Entry Placeholder="Day7" x:Name="I7"/>
+            <Entry Placeholder="Day8" x:Name="I8"/>
+            <Entry Placeholder="Day9" x:Name="I9"/>
+            <Entry Placeholder="Day10" x:Name="I10"/>
+            <Entry Placeholder="Day11" x:Name="I11"/>
+            <Entry Placeholder="Day12" x:Name="I12"/>
+            <Entry Placeholder="Day13" x:Name="I13"/>
+            <Entry Placeholder="Day14" x:Name="I14"/>
+            <Entry Placeholder="Day15" x:Name="I15"/>
+            <Entry Placeholder="Day16" x:Name="I16"/>
+            <Entry Placeholder="Day17" x:Name="I17"/>
+
+            <Entry Placeholder="Day18" x:Name="I18"/>
+            <Entry Placeholder="Day19" x:Name="I19"/>
+            <Entry Placeholder="Day20" x:Name="I20"/>
+            <Entry Placeholder="Day21" x:Name="I21"/>
+
+            <Entry Placeholder="Day22" x:Name="I22"/>
+            <Entry Placeholder="Day23" x:Name="I23"/>
+            <Entry Placeholder="Day24" x:Name="I24"/>
+            <Entry Placeholder="Day25" x:Name="I25"/>
+            <Entry Placeholder="Day26" x:Name="I26"/>
+            <Entry Placeholder="Day27" x:Name="I27"/>
+            <Entry Placeholder="Day28" x:Name="I28"/>
+
+            <Entry Placeholder="Day29" x:Name="I29"/>
+            <Entry Placeholder="Day30" x:Name="I30"/>
+            <Entry Placeholder="Day31" x:Name="I31"/>
+            <Entry Placeholder="Day32" x:Name="I32"/>
+            <Entry Placeholder="Day33" x:Name="I33"/>
+            <Entry Placeholder="Day34" x:Name="I34"/>
+            <Entry Placeholder="Day35" x:Name="I35"/>
+
+            <Entry Placeholder="Day36" x:Name="I36"/>
+            <Entry Placeholder="Day37" x:Name="I37"/>
+            <Entry Placeholder="Day38" x:Name="I38"/>
+            <Entry Placeholder="Day39" x:Name="I39"/>
+            <Entry Placeholder="Day40" x:Name="I40"/>
+            <Entry Placeholder="Day41" x:Name="I41"/>
+            <Entry Placeholder="Day42" x:Name="I42"/>
+
+
+
+            <Button x:Name="BtnCreate6" Text="Create Chart" Clicked="BtnCreate6_Clicked"  BackgroundColor="#3F84E5"
+                TextColor="White">
+
+            </Button>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

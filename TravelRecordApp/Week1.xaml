@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelRecordApp.Week1"
+              xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms">
+    <ScrollView>
+    <StackLayout>
+        <forms:ChartView x:Name="ChartV" HeightRequest="300">
+
+        </forms:ChartView>
+            <Button Text="!!Screenshot the chart and Email it!!" Margin="20" FontSize="Large" TextColor="#C21E56" BackgroundColor="Aqua"  x:Name="screenshot" />
+       
+        <Entry Text="" Placeholder="E-mail Address" x:Name="EntryEmail"/>
+            <Entry Text="" Placeholder="Subject" x:Name="EntrySubject"/>
+            <Button Text="Submit"  BackgroundColor="#3F84E5"
+                TextColor="White" Clicked="Button_Clicked"/>
+        
+        <Entry Placeholder="Day1" x:Name="D1"/>
+        <Entry Placeholder="Day2" x:Name="D2"/>
+        <Entry Placeholder="Day3" x:Name="D3"/>
+        <Entry Placeholder="Day4" x:Name="D4"/>
+        <Entry Placeholder="Day5" x:Name="D5"/>
+        <Entry Placeholder="Day6" x:Name="D6"/>
+        <Entry Placeholder="Day7" x:Name="D7"/>
+
+
+            <Button x:Name="BtnCreate" Text="Create Chart" Clicked="BtnCreate_Clicked"  BackgroundColor="#3F84E5"
+                TextColor="White" >
+
+        </Button>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

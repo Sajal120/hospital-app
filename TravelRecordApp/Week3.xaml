@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelRecordApp.Week3" xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms">
+    <ScrollView>
+        <StackLayout>
+        <forms:ChartView x:Name="ChartV3" HeightRequest="300">
+
+        </forms:ChartView>
+
+            <Entry Text="" Placeholder="E-mail Address" x:Name="EntryEmail12"/>
+            <Entry Text="" Placeholder="Subject" x:Name="EntrySubject12"/>
+            <Button Text="Submit"  BackgroundColor="#3F84E5"
+                TextColor="White" Clicked="Button_Clicked_1"/>
+            
+            <Entry Placeholder="Day1" x:Name="F1"/>
+        <Entry Placeholder="Day2" x:Name="F2"/>
+        <Entry Placeholder="Day3" x:Name="F3"/>
+        <Entry Placeholder="Day4" x:Name="F4"/>
+        <Entry Placeholder="Day5" x:Name="F5"/>
+        <Entry Placeholder="Day6" x:Name="F6"/>
+        <Entry Placeholder="Day7" x:Name="F7"/>
+        <Entry Placeholder="Day8" x:Name="F8"/>
+        <Entry Placeholder="Day9" x:Name="F9"/>
+        <Entry Placeholder="Day10" x:Name="F10"/>
+        <Entry Placeholder="Day11" x:Name="F11"/>
+        <Entry Placeholder="Day12" x:Name="F12"/>
+        <Entry Placeholder="Day13" x:Name="F13"/>
+        <Entry Placeholder="Day14" x:Name="F14"/>
+        <Entry Placeholder="Day15" x:Name="F15"/>
+        <Entry Placeholder="Day16" x:Name="F16"/>
+        <Entry Placeholder="Day17" x:Name="F17"/>
+
+        <Entry Placeholder="Day18" x:Name="F18"/>
+        <Entry Placeholder="Day19" x:Name="F19"/>
+        <Entry Placeholder="Day20" x:Name="F20"/>
+        <Entry Placeholder="Day21" x:Name="F21"/>
+
+
+            <Button x:Name="BtnCreate3" Text="Create Chart" Clicked="BtnCreate3_Clicked"  BackgroundColor="#3F84E5"
+                TextColor="White">
+
+        </Button>
+    </StackLayout>
+        </ScrollView>
+</ContentPage>

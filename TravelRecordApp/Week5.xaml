@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelRecordApp.Week5" xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms">
+    <ScrollView>
+        <StackLayout>
+            <forms:ChartView x:Name="ChartV5" HeightRequest="300">
+
+            </forms:ChartView>
+            <Entry Text="" Placeholder="E-mail Address" x:Name="EntryEmail1234"/>
+            <Entry Text="" Placeholder="Subject" x:Name="EntrySubject1234"/>
+            <Button Text="Submit"  BackgroundColor="#3F84E5"
+                TextColor="White" Clicked="Button_Clicked"/>
+            
+            <Entry Placeholder="Day1" x:Name="H1"/>
+            <Entry Placeholder="Day2" x:Name="H2"/>
+            <Entry Placeholder="Day3" x:Name="H3"/>
+            <Entry Placeholder="Day4" x:Name="H4"/>
+            <Entry Placeholder="Day5" x:Name="H5"/>
+            <Entry Placeholder="Day6" x:Name="H6"/>
+            <Entry Placeholder="Day7" x:Name="H7"/>
+            <Entry Placeholder="Day8" x:Name="H8"/>
+            <Entry Placeholder="Day9" x:Name="H9"/>
+            <Entry Placeholder="Day10" x:Name="H10"/>
+            <Entry Placeholder="Day11" x:Name="H11"/>
+            <Entry Placeholder="Day12" x:Name="H12"/>
+            <Entry Placeholder="Day13" x:Name="H13"/>
+            <Entry Placeholder="Day14" x:Name="H14"/>
+            <Entry Placeholder="Day15" x:Name="H15"/>
+            <Entry Placeholder="Day16" x:Name="H16"/>
+            <Entry Placeholder="Day17" x:Name="H17"/>
+
+            <Entry Placeholder="Day18" x:Name="H18"/>
+            <Entry Placeholder="Day19" x:Name="H19"/>
+            <Entry Placeholder="Day20" x:Name="H20"/>
+            <Entry Placeholder="Day21" x:Name="H21"/>
+
+            <Entry Placeholder="Day22" x:Name="H22"/>
+            <Entry Placeholder="Day23" x:Name="H23"/>
+            <Entry Placeholder="Day24" x:Name="H24"/>
+            <Entry Placeholder="Day25" x:Name="H25"/>
+            <Entry Placeholder="Day26" x:Name="H26"/>
+            <Entry Placeholder="Day27" x:Name="H27"/>
+            <Entry Placeholder="Day28" x:Name="H28"/>
+
+            <Entry Placeholder="Day29" x:Name="H29"/>
+            <Entry Placeholder="Day30" x:Name="H30"/>
+            <Entry Placeholder="Day31" x:Name="H31"/>
+            <Entry Placeholder="Day32" x:Name="H32"/>
+            <Entry Placeholder="Day33" x:Name="H33"/>
+            <Entry Placeholder="Day34" x:Name="H34"/>
+            <Entry Placeholder="Day35" x:Name="H35"/>
+
+
+
+            <Button x:Name="BtnCreate5" Text="Create Chart" Clicked="BtnCreate5_Clicked"  BackgroundColor="#3F84E5"
+                TextColor="White">
+
+            </Button>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

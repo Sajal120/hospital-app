@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TravelRecordApp.MapPage">
+    <ContentPage.Content>
+        <StackLayout Margin="15"
+                 VerticalOptions="Center">
+
+            <Button x:Name="wk1"
+                Text="7 days Chart"
+                BackgroundColor="#3F84E5"
+                TextColor="White"
+                Clicked="wk1_Clicked"/>
+
+            <Button x:Name="wk2"
+                Text="14 days Chart"
+                BackgroundColor="#3F84E5"
+                TextColor="White"
+                Clicked="wk2_Clicked"/>
+
+
+                      <Button x:Name="wk3"
+                Text="21 days Chart"
+                BackgroundColor="#3F84E5"
+                TextColor="White"
+                Clicked="wk3_Clicked"/>
+
+
+            <Button x:Name="wk4"
+                Text="28 days Chart"
+                BackgroundColor="#3F84E5"
+                TextColor="White"
+                Clicked="wk4_Clicked"/>
+
+
+            <Button x:Name="wk5"
+                Text="35 days Chart"
+                BackgroundColor="#3F84E5"
+                TextColor="White"
+                Clicked="wk5_Clicked"/>
+
+            <Button x:Name="wk6"
+                Text="42 days Chart"
+                BackgroundColor="#3F84E5"
+                TextColor="White"
+                Clicked="wk6_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

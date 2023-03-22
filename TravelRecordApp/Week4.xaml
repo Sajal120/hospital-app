@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelRecordApp.Week4" xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms">
+    <ScrollView>
+        <StackLayout>
+            <forms:ChartView x:Name="ChartV4" HeightRequest="300">
+
+            </forms:ChartView>
+
+            <Entry Text="" Placeholder="E-mail Address" x:Name="EntryEmail123"/>
+            <Entry Text="" Placeholder="Subject" x:Name="EntrySubject123"/>
+            <Button Text="Submit"  BackgroundColor="#3F84E5"
+                TextColor="White" Clicked="Button_Clicked"/>
+            
+            <Entry Placeholder="Day1" x:Name="G1"/>
+            <Entry Placeholder="Day2" x:Name="G2"/>
+            <Entry Placeholder="Day3" x:Name="G3"/>
+            <Entry Placeholder="Day4" x:Name="G4"/>
+            <Entry Placeholder="Day5" x:Name="G5"/>
+            <Entry Placeholder="Day6" x:Name="G6"/>
+            <Entry Placeholder="Day7" x:Name="G7"/>
+            <Entry Placeholder="Day8" x:Name="G8"/>
+            <Entry Placeholder="Day9" x:Name="G9"/>
+            <Entry Placeholder="Day10" x:Name="G10"/>
+            <Entry Placeholder="Day11" x:Name="G11"/>
+            <Entry Placeholder="Day12" x:Name="G12"/>
+            <Entry Placeholder="Day13" x:Name="G13"/>
+            <Entry Placeholder="Day14" x:Name="G14"/>
+            <Entry Placeholder="Day15" x:Name="G15"/>
+            <Entry Placeholder="Day16" x:Name="G16"/>
+            <Entry Placeholder="Day17" x:Name="G17"/>
+
+            <Entry Placeholder="Day18" x:Name="G18"/>
+            <Entry Placeholder="Day19" x:Name="G19"/>
+            <Entry Placeholder="Day20" x:Name="G20"/>
+            <Entry Placeholder="Day21" x:Name="G21"/>
+
+            <Entry Placeholder="Day22" x:Name="G22"/>
+            <Entry Placeholder="Day23" x:Name="G23"/>
+            <Entry Placeholder="Day24" x:Name="G24"/>
+            <Entry Placeholder="Day25" x:Name="G25"/>
+            <Entry Placeholder="Day26" x:Name="G26"/>
+            <Entry Placeholder="Day27" x:Name="G27"/>
+            <Entry Placeholder="Day28" x:Name="G28"/>
+
+
+
+
+
+            <Button x:Name="BtnCreate4" Text="Create Chart" Clicked="BtnCreate3_Clicked_2"  BackgroundColor="#3F84E5"
+                TextColor="White">
+
+            </Button>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TravelRecordApp.TravelDetailsPage">
+
+    <ScrollView>
+        <StackLayout Margin="15">
+           
+        <Entry x:Name="tempEntry"/>
+         <Label TextColor="blue" FontSize="Large"  Text="Temperature(37 / 36.5..)"/>
+           
+        <Entry x:Name="BleedEntry"/>
+            <Label TextColor="blue" FontSize="Large"  Text="Bleed(Heavy / Medium / Light)"/>
+            <Entry x:Name="BleedSpottingEntry"/>
+            <Label TextColor="blue" FontSize="Large"  Text="Bleed Spotting(Red / Brown)"/>
+            <Entry x:Name="MucusSensationEntry"/>
+            <Label TextColor="blue" FontSize="Large"  Text="Mucus Sensation(Dry / Damp / Wet / Slippery)"/>
+            <Entry x:Name="MucusConsistencyEntry"/>
+            <Label TextColor="blue" FontSize="Large"  Text="Mucus Consistency(Flaky,Crumbly / Tacky,Sticky,Thick / Runny / Watery / Stretchy,Eggwhite)"/>
+          
+        <Entry x:Name="MucusColourEntry"/>
+            <Label TextColor="blue" FontSize="Large"  Text="Mucus Colour(White / Yellow / Cloudy / Clear / Greenish)"/>
+            <Entry x:Name="MucusAmountEntry"/>
+            <Label TextColor="blue" FontSize="Large"  Text="Mucus Amount(Small / Medium / Large)"/>
+            <Entry x:Name="IntercourseEntry"/>
+            <Label TextColor="blue" FontSize="Large"  Text="Intercourse(Yes / No)"/>
+            <Entry x:Name="SymptomsEntry"/>
+            <Label TextColor="blue" FontSize="Large"  Text="Symptoms(Increased libido / Pain / Breast tenderness / Backache / Moodiness / Fullness at vulva ...)"/>
+            <Entry x:Name="MedicationsEntry"/>
+            <Label TextColor="blue" FontSize="Large"  Text="Medications or Supplements"/>
+            <Entry x:Name="experienceEntry"/>
+            <Label TextColor="blue" FontSize="Large"  Text="Day(Day 1 / Day 2..)"/>
+            <Button Text="Delete"
+                    x:Name="deleteButton"
+                    Clicked="Delete_Clicked"
+                   />
+        <Button Text="Update"
+                    x:Name="updateButton"
+                    Clicked="Update_Clicked"
+                   />
+    </StackLayout>
+  </ScrollView>
+</ContentPage>
